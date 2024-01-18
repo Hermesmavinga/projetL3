@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.items li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover{
+    color: crimson;
+    transition: 1s all;
+    border-bottom: 2px solid crimson;
+}
+
+.Est{
+    color: crimson;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/9c91035ecaa1bdb9f4cc166f0c848051.jpg");
+    height: 70vh;
+    width: 100%;
+    color: #fff;
+}
+
+.wrapper{
+    padding: 5%;
+    margin-left: 3%;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+header p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-bottom: 6%;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+header a:hover{
+    background-color: #002;
+}
+
+.dontitle{
+    width: 100%;
+    height: 20vh;
+    background-color: #002;
+    color: #fff;
+}
+
+.h1don{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-top: 3%;
+    
+}
+
+.formulaire{
+    width: 100%;
+    height: 70vh;
+    /* background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/08ff66acb255e92e31405c9b3cff3b0f.jpg"); */
+    background-size: 25%;
+}
+
+.motaccroche{
+    font-size: large;
+    font-weight: bolder;
+}
+
+form{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+input{
+    padding: 10px;
+    width: 400px;
+    margin: 5px;
+}
+
+.btn1{
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cocket{
+    width: 100%;
+    margin: 7%;
+}
+
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/08ff66acb255e92e31405c9b3cff3b0f.jpg"); 
+}
+
+
+.newslatter{
+    width: 100%;
+    background-color: #002;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 20vh;
+}
+
+.marnews{
+    width: 50%;
+    margin: 7%;
+}
+
+main{
+    width: 100%;
+    margin: 7%;
+}
+
+.titlemain{
+    border-bottom: 2px solid crimson;
+    width: 150px;
+}
+
+.gallery .item-grid{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.gallery{
+    width: 100%;
+    margin: 7%;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+footer p{
+    text-align: center;
+}
+.contacttitre{
+    font-size: large;
+    font-weight: bolder;
+    width: 100px;
+    border-bottom: 2px solid crimson;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.icons img{
+    border-radius: 100px;
+}
+
+.icons{
+    width: 100px;
+    margin: auto;
+}
